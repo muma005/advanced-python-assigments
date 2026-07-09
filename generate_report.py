@@ -194,6 +194,10 @@ pdf.ln(8)
 pdf.set_font("Helvetica", "", 11)
 pdf.cell(0, 8, "Group F", align="C", new_x="LMARGIN", new_y="NEXT")
 pdf.cell(0, 7, "Luul Ibrahim (24/00407)  |  Emily Hellen (24/05093)  |  George Muma (23/07556)", align="C", new_x="LMARGIN", new_y="NEXT")
+pdf.ln(12)
+pdf.set_font("Helvetica", "I", 10)
+pdf.set_text_color(100, 100, 100)
+pdf.cell(0, 7, "GitHub Repository: https://github.com/muma005/advanced-python-assigments", align="C", new_x="LMARGIN", new_y="NEXT")
 
 # -- 1. PROBLEM STATEMENT ---------------------------------------------
 pdf.add_page()
