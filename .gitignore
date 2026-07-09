@@ -1,0 +1,7 @@
+.qwen/
+__pycache__/
+*.pyc
+*.mp4
+.DS_Store
+Thumbs.db
+ASSIGNMENT 3 (2).pdf
